@@ -14,7 +14,7 @@ public class IntegerNumber {
             number /= 10;
         }
 
-        return number;
+        return x;
     }
 
 
