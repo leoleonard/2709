@@ -2,7 +2,6 @@ package integer.number;
 import java.util.Scanner;
 
 public class IntegerNumber {
-
     int total() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Podaj liczbę całkowitą");
@@ -16,8 +15,6 @@ public class IntegerNumber {
 
         return x;
     }
-
-
 }
 
 

@@ -4,12 +4,12 @@ import java.util.Random;
 
  class RandomNumbers {
     public static void main(String[] args) {
-        int [] numbers = new int[10];
+        int [] numbers = new int[5];
 
         Random rand = new Random();
 
         for (int i = 0; i < numbers.length ; i++) {
-            numbers[i] = rand.nextInt(10);
+            numbers[i] = rand.nextInt(12);
         }
 
         for (int i = 0; i < 2* numbers.length; i++) {
@@ -18,7 +18,6 @@ import java.util.Random;
             } else {
                 System.out.print(numbers[2* numbers.length - 1 - i] + " ");
             }
-
         }
 
     }
